@@ -4,11 +4,11 @@ import type { ProfileState } from "../../types/types";
 export const profileSlice = createSlice({
   name: "profile",
   initialState: {
-    name: "John Doe",
-    phone: "+1 234 567 8900",
+    name: "Eslam Yakoub",
+    phone: "01055676547",
     jobTitle: "Software Engineer",
     yearsOfExperience: "5",
-    address: "123 Main Street, New York, NY 10001",
+    address: "Giza, Egypt",
     workingHours: "9:00 AM - 5:00 PM",
     loading: false,
     success: false,
